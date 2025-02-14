@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(205, 237, 246, 1));
+    height: 100vh;
+    font-family: 'Open sans', 'serif';
+}
+.titulo{
+
+}
+main {
+    margin: 7% auto 0px;
+    width: 80%;
+}
+.titulo_principal {
+    font-size: 1.7vw;
+    font-weight: 700;
+    color: #04212B;
+}
+.titulo_secundario {
+    font-size: 2vw;
+    font-weight: 300;
+    color: #04212B;
+}
+
+.botoes {
+    width: 100%;
+    height: 101px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+ }
+
+ .imagem {
+
+ }
+.botao {
+    font-size: 1.5vw;
+    font-weight: 700;
+    width: 413px;
+    height: 101px;
+    border-radius: 21px;
+    border-width: 3px;
+    border-color: #04212B;
+    border-style: solid;
+    cursor: pointer;
+
+}
+.botao1 {
+    background-color: transparent;
+    color: #04212B;
+}
+.botao2 {
+    color: #FFFFFF;
+    background-color: #04212B;
+}
+.informacoes {
+    margin: 42px auto 0px;
+    width: 66%;
+}
+
+
+
